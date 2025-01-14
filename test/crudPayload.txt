@@ -1,0 +1,43 @@
+
+// Create : 
+
+{
+  "application": "b2b",
+  "model": "category",
+  "type": "create",
+  "payload": {
+    "items": [
+      {
+        "id": "924",
+        "account_id": "dfghj"
+      }
+    ]
+  },
+  "user": {"name":"Ashiq"}
+}
+
+// Update :
+
+{
+  "application": "b2b",
+  "model": "category",
+  "type": "update",
+  "payload": {
+    "items": [
+      {
+        "id": "924",
+        "account_id": "dfghj"
+      }
+    ]
+  },
+  "user": {"name":"Ashiq"}
+}
+
+// Delete : 
+
+{
+  "application": "b2b",
+  "model": "category",
+  "type": "delete",
+  "criteria": {"id":["5555"]}
+}

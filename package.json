@@ -1,0 +1,56 @@
+{
+  "name": "b2b-ecom-custom-logic-service",
+  "version": "1.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server",
+    "test": "lab -a @hapi/code -L",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@hapi/boom": "9.x.x",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/jwt": "^3.2.0",
+    "@hapi/vision": "^7.0.2",
+    "@hapipal/haute-couture": "4.x.x",
+    "@hapipal/schmervice": "^3.0.0",
+    "@hapipal/schwifty": "^6.2.0",
+    "hapi-swagger": "^16.0.1",
+    "joi": "17.x.x",
+    "jwt-decode": "^3.1.2",
+    "knex": "^2.5.1",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.7",
+    "objection": "^2.2.18",
+    "secure-password": "^4.0.0",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "@hapi/code": "8.x.x",
+    "@hapi/eslint-config-hapi": "13.x.x",
+    "@hapi/eslint-plugin-hapi": "4.x.x",
+    "@hapi/glue": "8.x.x",
+    "@hapi/hapi": "20.x.x",
+    "@hapi/lab": "24.x.x",
+    "@hapipal/confidence": "6.x.x",
+    "@hapipal/hpal": "3.x.x",
+    "@hapipal/hpal-debug": "2.x.x",
+    "@hapipal/toys": "3.x.x",
+    "babel-eslint": "10.x.x",
+    "dotenv": "8.x.x",
+    "eslint": "7.x.x",
+    "exiting": "6.x.x",
+    "nodemon": "^3.0.1"
+  }
+}
