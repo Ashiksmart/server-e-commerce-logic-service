@@ -38,7 +38,8 @@
     "exiting": "6.x.x",
     "dotenv": "8.x.x",
     "@hapipal/confidence": "6.x.x",
-    "@hapi/glue": "8.x.x"
+    "@hapi/glue": "8.x.x",
+    "basic-ftp": "^5.0.5"
   },
   "devDependencies": {
     "@hapi/code": "8.x.x",
